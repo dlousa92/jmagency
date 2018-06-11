@@ -70,6 +70,7 @@ img {
 
 .image-text {
   color: #f7f7f7;
+  text-shadow: -3px 3px black;
   font-size: 4em;
   position: absolute;
   top: 250px;
