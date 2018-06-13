@@ -32,10 +32,9 @@ h1 {
 nav {
   display: flex;
   justify-content: center;
-  height: 45px;
   width: 100%;
   background: #f7f7f7;
-  position: sticky;
+  z-index: 1;
 }
 
 ul {
@@ -46,12 +45,17 @@ ul {
   margin-right: 30px;
 }
 
+.scrolling-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
+
 .nav-left {
   display: flex;
   justify-content: space-around;
   width: 40%;
-
 }
+
 li {
   list-style-type: none;
   font-size: 1.5em;
@@ -77,18 +81,18 @@ img {
 }
 
 .image-text {
+  position: absolute;
   color: #f7f7f7;
   text-shadow: -3px 3px black;
   font-size: 4em;
-  position: absolute;
   top: 250px;
   left: 60px;
 }
 
 .artist {
-  color: #f7f7f7;
-  font-size: 1em;
   position: absolute;
+  color: #f7f7f7;
+  font-size: .7em;
   bottom: 5px;
   right: 5px;
 }
