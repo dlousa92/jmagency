@@ -6,7 +6,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   background: #f7f7f7;
@@ -74,8 +73,7 @@ p {
   font-family: 'Song Myung', serif;
 }
 
-
-img {
+.container img {
   height: 650px;
   width: 100%;
 }
@@ -95,4 +93,32 @@ img {
   font-size: .7em;
   bottom: 5px;
   right: 5px;
+}
+
+main {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.insurance, .travel, .otherservices {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+
+.insurance img {
+  height: 450px;
+  width: 100%;
+}
+
+.travel img {
+  height: 450px;
+  width: 100%;
+}
+
+.otherservices img {
+  height: 450px;
+  width: 100%;
 }
