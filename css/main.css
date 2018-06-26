@@ -95,10 +95,20 @@ p {
   right: 5px;
 }
 
+.servicesheading {
+  width: 100%;
+  background: #f7f7f7;
+  color: #323643;
+  font-size: 2em;
+  font-family: 'Bentham', serif;
+  padding: 2% 2%;
+  text-align: center;
+}
+
 main {
   display: grid;
   width: 100%;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .insurance, .travel, .otherservices {
