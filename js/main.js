@@ -1,7 +1,7 @@
 // this will fix the nav bar to the top of screen and offest the change in height value of the elements below the nav once it becomes fixed
 function fixNavigation () {
   if (window.scrollY >= topOfNavigation) {
-    document.body.style.paddingTop = navigation.offsetHeight + 'px'
+    // document.body.style.paddingTop = navigation.offsetHeight + 'px'
     document.body.classList.add('scrolling-nav')
   } else {
     document.body.style.paddingTop = 0
