@@ -32,6 +32,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 1%;
   background: #f7f7f7;
   z-index: 1;
 }
@@ -109,26 +110,58 @@ main {
   display: grid;
   width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-}
-
-.insurance, .travel, .otherservices {
-  display: flex;
+  grid-row: 450px;
   align-items: center;
-  flex-direction: column;
-  height: 200px;
+  text-align: center;
 }
 
-.insurance img {
+.insurance {
+  grid-column: 1;
+  grid-row: 1;
   height: 450px;
   width: 100%;
 }
 
-.travel img {
+.travel {
+  grid-column: 2;
+  grid-row: 1;
   height: 450px;
   width: 100%;
 }
 
-.otherservices img {
+.otherservices {
+  grid-column: 3;
+  grid-row: 1;
   height: 450px;
   width: 100%;
+}
+
+.insurancetext {
+  grid-column: 1;
+  grid-row: 1;
+  color: #f7f7f7;
+  font-size: 4em;
+  text-shadow: -3px 3px black;
+  font-family: 'Song Myung', serif;
+  font-weight: 200;
+}
+
+.traveltext {
+  grid-column: 2;
+  grid-row: 1;
+  color: #f7f7f7;
+  font-size: 4em;
+  text-shadow: -3px 3px black;
+  font-family: 'Song Myung', serif;
+  font-weight: 200;
+}
+
+.otherservicestext {
+  grid-column: 3;
+  grid-row: 1;
+  color: #f7f7f7;
+  font-size: 4em;
+  text-shadow: -3px 3px black;
+  font-family: 'Song Myung', serif;
+  font-weight: 200;
 }
