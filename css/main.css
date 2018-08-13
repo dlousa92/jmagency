@@ -9,6 +9,7 @@ body {
   align-items: center;
   width: 100%;
   background: #f7f7f7;
+  font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -21,7 +22,7 @@ header {
 }
 
 h1 {
-  font-family: 'Bentham', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 3.5em;
   background: #323643;
   color: #f7f7f7;
@@ -80,6 +81,7 @@ p {
 .coverimg img {
   height: 650px;
   width: 100%;
+  min-width: 800px;
 }
 
 .image-text {
@@ -90,6 +92,11 @@ p {
   top: 40%;
   left: 20%;
 }
+
+.imagetext {
+  font-family: 'Roboto', sans-serif;
+}
+
 .artist {
   position: absolute;
   color: #f7f7f7;
@@ -110,9 +117,56 @@ p {
 
 section img {
   width: 100%;
+  max-width: 800px;
   height: 400px;
 }
 
 .row .col {
   padding: 0;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.section {
+  position: relative;
+}
+
+.imagetext {
+  position: absolute;
+  color: #f7f7f7;
+  text-shadow: -3px 3px black;
+  font-size: 4em;
+  top: 22%;
+  text-align: center;
+}
+
+.info {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+
+footer {
+  width: 100%;
+  margin-top: 80px;
+  border-top: 3px solid black;
+  text-align: center;
+  background: #323643;
+  color: #f7f7f7;
+  padding: 30px;
+}
+
+.contact a {
+  color: #f7f7f7;
+}
+
+.calltoaction {
+  width: 200px;
+}
+
+.visit {
 }
