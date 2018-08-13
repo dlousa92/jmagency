@@ -9,7 +9,11 @@ body {
   align-items: center;
   width: 100%;
   background: #f7f7f7;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
 
 header {
@@ -22,7 +26,7 @@ header {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3.5em;
   background: #323643;
   color: #f7f7f7;
@@ -51,14 +55,9 @@ ul {
   box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-left {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-}
-
 .navbaritem {
   font-size: 1.2em;
+  color:#323643;
 }
 
 li {
@@ -72,10 +71,6 @@ a {
 
 .coverimg {
   position: relative;
-}
-
-p {
-  font-family: 'Song Myung', serif;
 }
 
 .coverimg img {
@@ -94,7 +89,7 @@ p {
 }
 
 .imagetext {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .artist {
@@ -110,8 +105,7 @@ p {
   background: #f7f7f7;
   color: #323643;
   font-size: 2em;
-  font-family: 'Bentham', serif;
-  padding: 2% 2%;
+  padding: 50px;
   text-align: center;
 }
 
@@ -138,7 +132,7 @@ section img {
   color: #f7f7f7;
   text-shadow: -3px 3px black;
   font-size: 4em;
-  top: 22%;
+  top: 24%;
   text-align: center;
 }
 
@@ -148,12 +142,12 @@ section img {
   flex-direction: column;
   justify-content: space-around;
   font-size: 1.5em;
+  color:#323643;
 }
 
 footer {
   width: 100%;
   margin-top: 80px;
-  border-top: 3px solid black;
   text-align: center;
   background: #323643;
   color: #f7f7f7;
@@ -162,10 +156,16 @@ footer {
 
 .contact a {
   color: #f7f7f7;
+  margin: auto;
+}
+
+.contact {
+  margin: 15px 0px;
 }
 
 .calltoaction {
   width: 200px;
+  margin: 15px 0px;
 }
 
 .visit {
