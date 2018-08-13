@@ -6,6 +6,7 @@
     <title>J&M Agency</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Bentham|Fjord+One|Song+Myung" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   </head>
   <body>
@@ -21,7 +22,7 @@
           </ul>
         </nav>
 
-      <div class='container'>
+      <div class='coverimg'>
         <img src='img/newark-skyline.jpg'>
         <p class='image-text'>Serving Newark for over 20 years</p>
         <p class='artist'>Photo by Michael Moloney on Unsplash</p>
@@ -31,33 +32,37 @@
         <h2>Our Services</h2>
       </div>
 
-      <main>
-        <img class='insurance' src='img/insurance.jpg'>
-        <h3 class='insurancetext'>Insurance</h3>
-
-        <img class='travel 'src='img/flight.jpg'>
-        <h3 class='traveltext'>Travel</h3>
-
-        <img class='otherservices 'src='img/otherservices.jpeg'>
-        <h3 class='otherservicestext'>Other</h3>
+      <main class='row'>
+        <section class='col xs12 m10 offset-m1 l4'>
+          <img class='insurance' src='img/carinsurance.jpg'>
+          <h3 class='insurancetext'>Insurance</h3>
+          <ul>We offer
+              <li>Automobile Insurance</li>
+              <li>Dollar-a-Day Insurance</li>
+              <li>Homeowners Insurance</li>
+              <li>Commercial Insurance</li>
+            </ul>
+        </section>
+        <section class='col xs12 m10 offset-m1 l4'>
+          <img class='travel 'src='img/travel.jpg'>
+          <h3 class='traveltext'>Travel</h3>
+          <ul>We offer
+              <li>Packages</li>
+              <li>Cruise Bookings</li>
+            </ul>
+        </section>
+        <section class='col xs12 m10 offset-m1 l4'>
+          <img class='otherservices 'src='img/otherservices.jpeg'>
+          <h3 class='otherservicestext'>Other</h3>
+          <ul>
+              <li>Notary Public</li>
+              <li>Translations</li>
+              <li>Rental Leases</li>
+            </ul>
+        </section>
       </main>
 
-      <ul>We offer
-        <li>Automobile Insurance</li>
-        <li>Dollar-a-Day Insurance</li>
-        <li>Homeowners Insurance</li>
-        <li>Commercial Insurance</li>
-      </ul>
-      <ul>We offer
-        <li>Travel Packages</li>
-        <li>Cruises</li>
-      </ul>
-      <ul>
-        <li>Notary Public</li>
-        <li>Translations</li>
-        <li>Rental Leases</li>
-      </ul>
-
+      <script type="text/javascript" src="js/materialize.min.js"></script>
       <script src="js/main.js"></script>
   </body>
 </html>
