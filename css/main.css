@@ -69,7 +69,7 @@ a {
   text-decoration: none;
 }
 
-.container {
+.coverimg {
   position: relative;
 }
 
@@ -77,7 +77,7 @@ p {
   font-family: 'Song Myung', serif;
 }
 
-.container img {
+.coverimg img {
   height: 650px;
   width: 100%;
 }
@@ -90,7 +90,6 @@ p {
   top: 40%;
   left: 20%;
 }
-
 .artist {
   position: absolute;
   color: #f7f7f7;
@@ -109,62 +108,11 @@ p {
   text-align: center;
 }
 
-main {
-  display: grid;
+section img {
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 450px;
-  align-items: center;
-  text-align: center;
+  height: 400px;
 }
 
-.insurance {
-  grid-column: 1;
-  grid-row: 1;
-  height: 450px;
-  width: 100%;
-}
-
-.travel {
-  grid-column: 2;
-  grid-row: 1;
-  height: 450px;
-  width: 100%;
-}
-
-.otherservices {
-  grid-column: 3;
-  grid-row: 1;
-  height: 450px;
-  width: 100%;
-}
-
-.insurancetext {
-  grid-column: 1;
-  grid-row: 1;
-  color: #f7f7f7;
-  font-size: 4em;
-  text-shadow: -3px 3px black;
-  font-family: 'Song Myung', serif;
-  font-weight: 200;
-}
-
-.traveltext {
-  grid-column: 2;
-  grid-row: 1;
-  color: #f7f7f7;
-  font-size: 4em;
-  text-shadow: -3px 3px black;
-  font-family: 'Song Myung', serif;
-  font-weight: 200;
-}
-
-.otherservicestext {
-  grid-column: 3;
-  grid-row: 1;
-  color: #f7f7f7;
-  font-size: 4em;
-  text-shadow: -3px 3px black;
-  font-family: 'Song Myung', serif;
-  font-weight: 200;
+.row .col {
+  padding: 0;
 }
