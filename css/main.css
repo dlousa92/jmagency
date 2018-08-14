@@ -158,7 +158,7 @@ footer {
   text-align: center;
   background: #323643;
   color: #f7f7f7;
-  padding: 30px;
+  padding: 20px 0px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -170,7 +170,7 @@ footer {
 }
 
 .contact {
-  margin: 15px 0px;
+  margin-top: 15px;
 }
 
 .calltoaction {
@@ -180,6 +180,10 @@ footer {
 
 .visit {
   margin-bottom: 30px;
+}
+
+.visitheader {
+  margin-bottom: 10px;
 }
 /* Animation Effects */
 
