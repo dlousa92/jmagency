@@ -1,3 +1,5 @@
+/* General Styling and Appearance */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,6 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 1600px;
   background: #f7f7f7;
   font-family: 'Roboto', serif;
 }
@@ -38,6 +41,7 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  max-width: 1600px;
   padding: 1%;
   background: #f7f7f7;
   z-index: 1;
@@ -78,16 +82,16 @@ a {
 .coverimg img {
   height: 650px;
   width: 100%;
-  min-width: 800px;
 }
 
-.image-text {
+.covertext {
   position: absolute;
   color: #f7f7f7;
   text-shadow: -3px 3px black;
   font-size: 4em;
   top: 40%;
-  left: 20%;
+  left: 10%;
+  text-align: center;
 }
 
 .imagetext {
@@ -161,6 +165,8 @@ footer {
 .contact a {
   color: #f7f7f7;
   margin: auto;
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
 .contact {
@@ -170,4 +176,37 @@ footer {
 .calltoaction {
   width: 200px;
   margin: 15px 0px;
+}
+
+/* Animation Effects */
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #f7f7f7;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
 }
