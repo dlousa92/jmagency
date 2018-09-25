@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1800px;
   background: #f7f7f7;
   font-family: 'Roboto', serif;
 }
@@ -45,7 +45,7 @@ nav {
   justify-content: center;
   width: 100%;
   max-width: 1600px;
-  padding: 3%;
+  padding: 0px 20px;
   background: #f7f7f7;
   z-index: 1;
 }
@@ -236,7 +236,22 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
+
+  .coverimg img {
+    height: 350px;
+    width: 100%;
+  }
+
+  .covertext {
+    position: absolute;
+    color: #f7f7f7;
+    text-shadow: -3px 3px black;
+    font-size: 3em;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+  }
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
